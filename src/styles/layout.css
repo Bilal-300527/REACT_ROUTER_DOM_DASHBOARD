@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+.dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+    background: #0f172a;
+}
+
+.main-section {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    background: #0f172a;
+}
+
+.page-content {
+    padding: 30px 35px;
+    flex: 1;
+    width: 100%;
+    background: #0f172a;
+}
+
+@media (max-width: 600px) {
+    .page-content {
+        padding: 22px 15px;
+    }
+}
